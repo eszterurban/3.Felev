@@ -1,0 +1,18 @@
+table.scrabble>thead>tr>th+th{$}*15+th^^tbody>tr*15>th+td*15+th^^tfoot>tr>th+th{$}*15+th
+
+tr th td
+
+(thead>tr>...)+(tbody>tr>...)+(tfoot>tr>..)
+
+
+elem.osztaly
+#id
+::before, ::after content:"érték"
+:hover raviszed es akkor tortenik
+:first-of-type, :last-of-type, :nth-of-type(2n+3)
+:first-child, :last-child, :nth-childe(2n+3)
+a>ul
+a ul
+a *
+
+table.lighrbulb>tbody>tr*7>td*7

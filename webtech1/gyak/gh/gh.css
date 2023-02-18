@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+table{
+    margin: auto;
+    background-color:rgb(40, 39, 39);
+    border: thin solid white;
+}
+td,tr{
+    width: 3em;
+    height: 3em;
+}
+tfoot{
+    background-color: white;
+}
+.p{
+    border: thick solid red;
+    border-radius: 50%;
+    background-color: gray;
+}
+.k{
+    border: thick solid blue;
+    border-radius: 50%;
+    background-color: gray;
+}
+.z{
+    border: thick solid green;
+    border-radius: 50%;
+    background-color: gray;
+}
+.s{
+    border: thick solid yellow;
+    border-radius: 50%;
+    background-color: gray;
+}
+.n{
+    border: thick solid orange;
+    border-radius: 50%;
+    background-color: gray;
+}
+.tz{
+    border-top: solid green;
+}
+
+.tp{
+    border-top: solid red;
+}
+
+.ts{
+    border-top:solid yellow;
+}
+
+.tk{
+    border-top: solid blue;
+}
+
+.tn{
+    border-top: solid orange;
+}

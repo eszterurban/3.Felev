@@ -1,0 +1,10 @@
+<!ELEMENT irodalomjegyzek (konyv*)>
+<!ELEMENT konyv (author+, title, kiadasiszam?, kiado, year, ISBN, web?)>
+
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT kiadasiszam (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT web (#PCDATA)>

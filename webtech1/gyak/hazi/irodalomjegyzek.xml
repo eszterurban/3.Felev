@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE irodalomjegyzek SYSTEM "irodalomjegyzek.dtd">
+<?xml-stylesheet href="irodalomjegyzek.css" type="text/css"?>
+
+<irodalomjegyzek>
+    <konyv>
+        <author> Colleen Hoover</author>
+        <title> It Starts with Us</title>
+        <kiado> KÖNYVMOLYKÉPZŐ KIADÓ KFT.</kiado>
+        <year> 2017</year>
+        <ISBN> 9789634572435</ISBN>
+        <web> https://www.amazon.com/Starts-Us-Novel-Ends/dp/1668001225</web>
+    </konyv>
+
+    <konyv>
+        <author> André Aciman</author>
+        <title> Szólíts a neveden</title>
+        <kiadasiszam> első kiadás</kiadasiszam>
+        <kiado> Athenaeum Kiadó Kft.</kiado>
+        <year> 2022</year>
+        <ISBN> 9789632937656</ISBN>
+    </konyv>
+
+    <konyv>
+        <author> Leiner Laura</author>
+        <title> A Szent Johanna gimi 1.</title>
+        <kiado> Carta TEEN</kiado>
+        <year> 2010</year>
+        <ISBN> 9786155653087</ISBN>
+    </konyv>
+
+    <konyv>
+        <author> Colleen Hoover</author>
+        <title> Velünk véget ér</title>
+        <kiado> Könyvmolyképző Kiadó Kft.</kiado>
+        <year> 2017</year>
+        <ISBN> 9789634572435</ISBN>
+    </konyv>
+
+    <konyv>
+        <author> George R. R. Martin</author>
+        <title> Trónok harca - A tűz és jég dala I.</title>
+        <kiado> ALEXANDRA KÖNYVESHÁZ KFT.</kiado>
+        <year> 2020</year>
+        <ISBN> 9789634478409</ISBN>
+    </konyv>
+
+    <konyv>
+        <author> Clare Boylan</author>
+        <author> Charlotte Brontë</author>
+        <title> Emma Brown</title>
+        <kiado> LAZI KÖNYVKIADÓ KFT.</kiado>
+        <year> 2017</year>
+        <ISBN> 9789632670515</ISBN>
+    </konyv>
+</irodalomjegyzek>
