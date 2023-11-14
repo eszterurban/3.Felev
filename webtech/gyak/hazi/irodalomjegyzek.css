@@ -1,0 +1,81 @@
+irodalomjegyzek{
+    display: inline;
+    counter-reset: book-number; 
+    margin: auto;
+    text-align: center;
+    background-color:deeppink;
+}
+
+konyv{
+    display: table; 
+    counter-increment: book-number;
+    font-family: monospace;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    color:black;
+}
+
+title{
+    font-style: italic;
+    background-color:hotpink;
+    color: mintcream;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+author{
+    background-color:rgb(170, 30, 100);
+    color: mintcream;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+author::before{
+    content: "[" counter(book-number) "] ";
+}
+
+author::after{
+    content: ". ";
+}
+
+title::after{
+    content: ". ";
+}
+
+kiado::after{
+    content: ", ";
+}
+
+year::after{
+    content: ". ";
+}
+
+ISBN::after{
+    content: ". ";
+}
+
+web::after{
+    content: ". ";
+}
+
+kiadasiszam::after{
+    content: ". ";
+}
+
+ISBN::before{
+    content: "ISBN:";
+}
+
+web::before{
+    content: "URL:";
+}
+
+konyv:nth-child(6) > author:nth-child(2)::before{
+    content: "";
+}
+
+konyv:nth-child(6) > author:nth-child(1)::after{
+    content: ",";
+}

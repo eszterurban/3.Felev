@@ -1,0 +1,28 @@
+.contener{
+    display: flex;
+}
+div{
+    margin: 1em 1em;
+}
+table{
+    border-collapse: collapse;
+    border: solid thick black;
+}
+td{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    border: solid thin black;
+    font-family:Tahoma;
+    color: white;
+}
+.kek{
+    background-color: lightblue;
+}
+.fekete{
+    background-color: black;
+}
+ul.a{
+    list-style-type: circle;
+}
