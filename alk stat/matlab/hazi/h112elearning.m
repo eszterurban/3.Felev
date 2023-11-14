@@ -1,0 +1,10 @@
+adat=[38.3, 43.5, 38.4, 38.1, 43, 39.5, 39.6, 42.4];
+ex=40;
+a=length(adat)-1;
+alpha=0.03;
+atlag=mean(adat);
+[h,p]=ttest(adat,ex,'Alpha',alpha,'Tail','both')
+t_alpha_2 = tinv(1-alpha/2, a)
+emp=var(adat);
+sn=sqrt(emp);
+t=((atlag-ex)/sn)*sqrt(length(adat))
